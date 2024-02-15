@@ -62,6 +62,31 @@
         font-size: 70px;
     }
 
+    /* MAIN - Section .testimonials */
+
+    .testimonials__title{
+        font-size: 40px;
+    }
+
+    .testimonials__title + p{
+        margin-bottom: 16px;
+    }
+    
+
+    .testimonials-card{
+        display: flex;
+        margin: 10px 0;
+    }
+
+    .testimonials-card__img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .testimonials-card__content{
+        text-align: start;
+    }
 
 
 
