@@ -343,6 +343,46 @@ p.about-us__ceo-description{
     width: 40%;
 }
 
+/* MAIN - Section .get-started */
+
+.get-started{
+    background-color: #9792E4;
+    color: #ffffff;
+    padding: 50px 0;
+}
+
+.get-started span{
+    display: block;
+    color: #ffffffdd;
+    margin-bottom: 20px;
+}
+
+.get-started h1{
+    font-size: 60px;
+    margin: 20px 0;
+    color: #FDC05F;
+}
+
+.get-started p{
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.get-started button{
+    color: #9792E4;
+    font-weight: 700;
+    font-size: 20px;
+    width: 80%;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.get-started a{
+    text-decoration: underline;
+}
+
+
+
 
 
 
