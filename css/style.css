@@ -109,6 +109,10 @@ button{
     margin: 40px 0;
 }
 
+.hero .row{
+    margin: 0 -25px;
+}
+
 .hero div[class^="col"]{
     margin-bottom: 30px;
 }
@@ -124,6 +128,7 @@ button{
 
 .hero-card{
     background-color: #B5DDFF;
+    height: 100%;
 }
 
 .hero-card:not(.hero-card.application){

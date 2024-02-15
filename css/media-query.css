@@ -149,3 +149,33 @@
         width: 90%;
     }
 }
+
+@media screen and (min-width: 992px) {
+
+    .container-lg{
+        max-width: 960px;
+    }
+
+    /* HEADER */
+    .main-header__menu{
+        display: block;
+    }
+
+    .main-header__menu-hamburger{
+        display: none;
+    }
+
+    /* MAIN - Section .hero */
+
+    .hero-card__header h1{
+        font-size: 25px;
+    }
+
+    .hero-card__header p,
+    .hero-card__body p{
+    line-height: 30px;
+    margin-top: 20px;
+    font-size: 16px;
+    }
+
+}
