@@ -36,6 +36,10 @@ body{
     border-radius: 24px;
 }
 
+.border-radius-50{
+    border-radius: 50px;
+}
+
 .text-center{
     text-align: center;
 }
@@ -167,7 +171,7 @@ button{
     color: #ffffff;
 }
 
-.planning__title p{
+.planning__title + p{
     line-height: 30px;
     margin-top: 50px;
     color: #ffffff;
@@ -197,6 +201,53 @@ button{
     font-size: 20px;
     border-radius: 999px;
     background-color: #9792E4;
+}
+
+/* MAIN - Section .testimonials */
+
+.testimonials{
+    margin: 60px 0;
+}
+
+.testimonials span{
+    display: block;
+}
+
+.testimonials__title{
+    font-size: 30px;
+    color:#9792E4;
+    margin: 30px 0;
+}
+
+.testimonials__title + p{
+    line-height: 30px;
+}
+
+.testimonials-card{
+    background-color: #9792E4;
+    color: #ffffff;
+    margin: 30px 0;
+    padding: 30px;
+}
+
+.testimonials-card img{
+    border-radius: 50%;
+    width: 70%;
+}
+
+.testimonials-card p{
+    line-height: 30px;
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.testimonials-card p + span{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.testimonials i{
+    font-size: 28px;
 }
 
 
