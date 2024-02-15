@@ -381,6 +381,22 @@ p.about-us__ceo-description{
     text-decoration: underline;
 }
 
+/* FOOTER */
+
+.main-footer{
+    background-color: #333333;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.main-footer p{
+    padding: 30px 0;
+}
+
+.main-footer a{
+    color:#9792E4;
+    text-decoration: underline;
+}
 
 
 
