@@ -156,6 +156,14 @@
         max-width: 960px;
     }
 
+    .col-lg-4{
+        width: calc(4 * 100% / 12);
+    }
+
+    .col-lg-6{
+        width: calc(6 * 100% / 12);
+    }
+
     /* HEADER */
     .main-header__menu{
         display: block;
@@ -178,4 +186,27 @@
     font-size: 16px;
     }
 
+    /* MAIN - Section - .planning */
+
+    .planning .row{
+        display: flex;
+    }
+
+    .planning div[class^="col"]{
+        padding: 20px;
+    }
+
+    .planning__title{
+        font-size: 30px;
+    }
+
+    .planning__title + p{
+        padding-bottom: 80px;
+    }
+
+    .planning div[class^="col"]:nth-child(2){
+        display: flex;
+        flex-direction: column;
+        align-self: flex-end;
+    }
 }
