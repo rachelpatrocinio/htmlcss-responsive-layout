@@ -132,10 +132,13 @@ button{
     color: #0084FD;
 }
 
+.hero-card__header{
+    margin-bottom: 10px;
+}
+
 .hero-card__header h1{
     color: #0084FD;
     font-size: 30px;
-    margin-bottom: 10px;
 }
 
 .hero-card__header p,
@@ -144,6 +147,24 @@ button{
     color: #5A6D7E;
     line-height: 30px;
     margin-top: 20px;
+}
+
+/* MAIN - Section .planning */
+
+.planning{
+    background-color: #9792E4;
+    padding: 80px 0;
+    color: #ffffff
+}
+
+.planning h1{
+    font-size: 30px;
+    margin-top: 60px;
+}
+
+.planning p{
+    line-height: 30px;
+    margin-top: 50px;
 }
 
 
