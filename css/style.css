@@ -250,5 +250,51 @@ button{
     font-size: 28px;
 }
 
+/* MAIN - Section .benefits */
+
+.benefits{
+    background-color: #9792E4;
+    color: #ffffff;
+    padding: 50px 0;
+}
+
+.benefits__title{
+    font-size: 30px;
+}
+
+.benefits__card{
+    background-color: #ffffff;
+    color: #000000;
+    margin: 30px 0;
+    padding: 30px;
+}
+
+.benefits__card-header{
+    color: #9792E4;
+    margin: 20px 0;
+}
+
+.benefits__card-header > *{
+    margin: 20px 0;
+}
+
+.benefits__card-header h1{
+    font-size: 50px;
+}
+
+.benefits__card-body p{
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.benefits__card-body button{
+    background-color: #9792E4;
+    color: #ffffff;
+    width: 30%;
+    font-weight: 700;
+}
+
+
+
 
 
