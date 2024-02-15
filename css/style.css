@@ -40,12 +40,17 @@ body{
     text-align: center;
 }
 
+.italic{
+    font-style: italic;
+}
+
 /* Features */
 
 button{
     color: #000000;
     padding:  10px 15px;
     border-radius: 24px;
+    cursor: pointer;
 }
 
 /* Layout */
@@ -56,7 +61,7 @@ button{
 }
 
 .container-sm{
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -154,17 +159,44 @@ button{
 .planning{
     background-color: #9792E4;
     padding: 80px 0;
-    color: #ffffff
 }
 
-.planning h1{
+.planning__title{
     font-size: 30px;
     margin-top: 60px;
+    color: #ffffff;
 }
 
-.planning p{
+.planning__title p{
     line-height: 30px;
     margin-top: 50px;
+    color: #ffffff;
+}
+
+.planning-card{
+    background-color: #ffffff;
+    margin-top: 40px;
+    padding: 30px 10px;
+}
+
+.planning-card__body{
+    text-align: center;
+    color: #000000;
+}
+
+.planning-card__body h1{
+    margin-top: 20px;
+}
+
+.planning-card__body p{
+    line-height: 30px;
+    margin: 20px 0;
+}
+
+.planning-card__body button{
+    font-size: 20px;
+    border-radius: 999px;
+    background-color: #9792E4;
 }
 
 
