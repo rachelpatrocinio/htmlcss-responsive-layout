@@ -8,16 +8,20 @@
         width: calc(4 * 100% / 12);
     }
 
+    .col-md-6{
+        width: calc(6 * 100% / 12);
+    }
+
     .col-md-8{
         width: calc(8 * 100% / 12);
     }
 
-    .row{
+    /* MAIN - Section .hero */
+
+    .hero .row{
         display: flex;
         flex-wrap: wrap;
     }
-
-    /* MAIN - Section .hero */
 
     .hero div[class^="col"]{
         margin-bottom: 10px;
@@ -88,7 +92,36 @@
         text-align: start;
     }
 
+    /* MAIN - Section .benefits */
 
+    .benefits__title{
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+
+    .benefits-cards{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .benefits-cards > div[class^="col"]{
+        padding: 10px;
+    }
+
+    .benefits__card{
+        margin: 10px 0;
+    }
+
+    .benefits__card-body p{
+        line-height: 25px;
+        margin-bottom: 20px;
+    }
+
+    .benefits__card-body button{
+        width: 40%;
+    }
+
+  
 
 
 
