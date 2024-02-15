@@ -65,7 +65,7 @@ button{
 }
 
 .container-sm{
-    width: 80%;
+    max-width: 540px;
     margin: 0 auto;
 }
 
@@ -110,7 +110,6 @@ button{
 }
 
 .hero div[class^="col"]{
-    background-color: #B5DDFF;
     margin-bottom: 30px;
 }
 
@@ -121,6 +120,10 @@ button{
     font-size: 20px;
     color: #ffffff;
     background-color: #0084FD;
+}
+
+.hero-card{
+    background-color: #B5DDFF;
 }
 
 .hero-card:not(.hero-card.application){
