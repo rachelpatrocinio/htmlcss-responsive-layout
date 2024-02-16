@@ -65,8 +65,9 @@ button{
 }
 
 .container-sm{
-    max-width: 540px;
+    max-width: 564px;
     margin: 0 auto;
+    padding: 0 12px;
 }
 
 .col-6{
