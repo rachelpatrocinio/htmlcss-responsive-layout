@@ -82,12 +82,16 @@ button{
 .main-header{
     color: #ffffff;
     background-color: #0A84FD;
-    padding: 10px 0;
+    padding: 20px 0;
 }
 
 .main-header .row{
     display: flex;
     justify-content: space-between;
+}
+
+.main-header .logo img{
+    display: block;
 }
 
 .main-header__menu{
