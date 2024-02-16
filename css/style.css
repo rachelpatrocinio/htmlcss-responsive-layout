@@ -119,26 +119,35 @@ button{
 
 .hero button{
     margin: 30px 0;
-    width: 70%;
+    width: 280px;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 17px;
     color: #ffffff;
     background-color: #0084FD;
 }
 
-.hero-card{
+.hero-card,
+.hero-card-landscape{
     background-color: #B5DDFF;
     height: 100%;
 }
 
-.hero-card:not(.hero-card.application){
+.hero-card:not(.hero-card.landscape){
     padding: 50px;
 }
 
-.hero-card.application{
-    padding-top: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
+.hero-card-landscape .hero-card__header{
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.hero-card-landscape .hero-card__body-img{
+    justify-content: center;
+}
+
+.hero-card-landscape .hero-card__body img{
+    width: 250px;
 }
 
 .hero-card__header i:not(.fa-apple){
@@ -147,10 +156,6 @@ button{
     text-align: center;
     margin-bottom: 20px;
     color: #0084FD;
-}
-
-.hero-card__header{
-    margin-bottom: 10px;
 }
 
 .hero-card__header h1{

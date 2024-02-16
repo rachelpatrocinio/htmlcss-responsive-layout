@@ -29,13 +29,8 @@
         padding: 10px;
     }
 
-    .hero-card:not(.hero-card.application){
+    .hero-card:not(.hero-card-landscape){
         padding: 30px;
-    }
-
-    .hero-card.application img{
-        width: 70%;
-
     }
 
     .hero-card__header h1{
@@ -48,9 +43,9 @@
 
     .hero-card__header p,
     .hero-card__body p{
-    line-height: 20px;
-    margin-top: 10px;
-    font-size: 12px;
+        line-height: 20px;
+        margin-top: 10px;
+        font-size: 12px;
     }
 
     .hero-card__body{
@@ -58,7 +53,6 @@
     }
 
     .hero button{
-        font-size: 10px;
         margin: 20px 0;
     }
 
@@ -183,19 +177,16 @@
         font-size: 25px;
     }
 
-    .hero-card__header p,
-    .hero-card__body p{
-    line-height: 30px;
-    margin-top: 20px;
-    font-size: 16px;
-    }
-
-    .hero-card.application{
+    .hero-card-landscape{
         display: flex;
     }
 
-    .hero-card.application img{
-        width: 100%;
+    .hero-card-landscape .hero-card__header{
+        padding-right: 10px;
+    }
+
+    .hero-card__body-img{
+        justify-content: center;
     }
 
     /* MAIN - Section .planning */
