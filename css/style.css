@@ -1,3 +1,15 @@
+:root{
+
+    --dark: #333333;
+    --blue: #0A84FD;
+    --lightblue: #B5DDFF;
+    --lilac: #9792E4;
+    --white: #ffffff;
+    --gold: #FDC05F;
+    --grey: #5A6D7E;
+}
+
+
 *{
     padding: 0;
     margin: 0;
@@ -51,7 +63,7 @@ body{
 /* Features */
 
 button{
-    color: #000000;
+    color: var(--dark);
     padding:  10px 15px;
     border-radius: 24px;
     cursor: pointer;
@@ -81,8 +93,8 @@ button{
 /* Header */
 
 .main-header{
-    color: #ffffff;
-    background-color: #0A84FD;
+    color: var(--white);
+    background-color: var(--blue);
     padding: 20px 0;
 }
 
@@ -123,13 +135,13 @@ button{
     width: 250px;
     font-weight: 700;
     font-size: 17px;
-    color: #ffffff;
-    background-color: #0084FD;
+    color: var(--white);
+    background-color: var(--blue);
 }
 
 .hero-card,
 .hero-card-landscape{
-    background-color: #B5DDFF;
+    background-color: var(--lightblue);
     height: 100%;
 }
 
@@ -152,18 +164,18 @@ button{
     display: block;
     text-align: center;
     margin-bottom: 20px;
-    color: #0084FD;
+    color: var(--blue);
 }
 
 .hero-card__header h1{
-    color: #0084FD;
+    color: var(--blue);
     font-size: 30px;
 }
 
 .hero-card__header p,
 .hero-card__body p{
     font-weight: 700;
-    color: #5A6D7E;
+    color: var(--grey);
     line-height: 30px;
     margin-top: 20px;
 }
@@ -171,31 +183,31 @@ button{
 /* MAIN - Section .planning */
 
 .planning{
-    background-color: #9792E4;
+    background-color: var(--lilac);
     padding: 80px 0;
 }
 
 .planning__title{
     font-size: 30px;
     margin-top: 60px;
-    color: #ffffff;
+    color: var(--white);
 }
 
 .planning__title + p{
     line-height: 30px;
     margin-top: 50px;
-    color: #ffffff;
+    color: var(--white);
 }
 
 .planning-card{
-    background-color: #ffffff;
+    background-color: var(--white);
     margin-top: 40px;
     padding: 30px 20px;
 }
 
 .planning-card__body{
     text-align: center;
-    color: #000000;
+    color: var(--dark);
 }
 
 .planning-card__body h1{
@@ -210,7 +222,7 @@ button{
 .planning-card__body button{
     font-size: 20px;
     border-radius: 999px;
-    background-color: #9792E4;
+    background-color: var(--lilac);
 }
 
 /* MAIN - Section .testimonials */
@@ -225,7 +237,7 @@ button{
 
 .testimonials__title{
     font-size: 30px;
-    color:#9792E4;
+    color: var(--lilac);
     margin: 30px 0;
 }
 
@@ -234,8 +246,8 @@ button{
 }
 
 .testimonials-card{
-    background-color: #9792E4;
-    color: #ffffff;
+    background-color: var(--lilac);
+    color: var(--white);
     margin: 30px 0;
     padding: 30px;
 }
@@ -269,8 +281,8 @@ button{
 /* MAIN - Section .benefits */
 
 .benefits{
-    background-color: #9792E4;
-    color: #ffffff;
+    background-color: var(--lilac);
+    color: var(--white);
     padding: 50px 0;
 }
 
@@ -279,14 +291,14 @@ button{
 }
 
 .benefits__card{
-    background-color: #ffffff;
-    color: #000000;
+    background-color: var(--white);
+    color: var(--dark);
     margin: 30px 0;
     padding: 30px;
 }
 
 .benefits__card-header{
-    color: #9792E4;
+    color: var(--lilac);
     margin: 20px 0;
 }
 
@@ -304,8 +316,8 @@ button{
 }
 
 .benefits__card-body button{
-    background-color: #9792E4;
-    color: #ffffff;
+    background-color: var(--lilac);
+    color: var(--white);
     width: 30%;
     font-weight: 700;
 }
@@ -318,7 +330,7 @@ button{
 
 .about-us__title{
     font-size: 50px;
-    color: #9792E4;
+    color: var(--lilac);
     margin-bottom: 20px;
 }
 
@@ -343,27 +355,27 @@ button{
     top: 10px;
     right: -10px;
     font-size: 70px;
-    color: #9792E4;
+    color: var(--lilac);
 }
 
 p.about-us__ceo-description{
-    color: #9792E4;
+    color: var(--lilac);
     font-size: 30px;
     font-weight: 700;
     line-height: 40px;
 }
 
 .about-us button{
-    background-color: #9792E4;
-    color: #ffffff;
+    background-color: var(--lilac);
+    color: var(--white);
     width: 200px;
 }
 
 /* MAIN - Section .get-started */
 
 .get-started{
-    background-color: #9792E4;
-    color: #ffffff;
+    background-color: var(--lilac);
+    color: var(--white);
     padding: 50px 0;
 }
 
@@ -380,7 +392,7 @@ p.about-us__ceo-description{
 .get-started h1{
     font-size: 60px;
     margin: 20px 0;
-    color: #FDC05F;
+    color: var(--gold);
 }
 
 .get-started p{
@@ -390,7 +402,7 @@ p.about-us__ceo-description{
 }
 
 .get-started button{
-    color: #9792E4;
+    color: var(--lilac);
     font-weight: 700;
     font-size: 20px;
     width: 250px;
@@ -405,8 +417,8 @@ p.about-us__ceo-description{
 /* FOOTER */
 
 .main-footer{
-    background-color: #333333;
-    color: #ffffff;
+    background-color: var(--dark);
+    color: var(--white);
     font-weight: 700;
 }
 
@@ -417,7 +429,7 @@ p.about-us__ceo-description{
 }
 
 .main-footer a{
-    color:#9792E4;
+    color:var(--lilac);
     text-decoration: underline;
 }
 
