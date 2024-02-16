@@ -143,10 +143,6 @@ button{
     padding-right: 30px;
 }
 
-.hero-card-landscape .hero-card__body-img{
-    justify-content: center;
-}
-
 .hero-card-landscape .hero-card__body img{
     width: 250px;
 }
