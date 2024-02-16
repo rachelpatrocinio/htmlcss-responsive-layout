@@ -234,9 +234,15 @@ button{
     padding: 30px;
 }
 
+.testimonials-card__content{
+    padding: 20px;
+}
+
 .testimonials-card img{
     border-radius: 50%;
-    width: 70%;
+    width: 210px;
+    height: 210px;
+    object-fit: cover;
 }
 
 .testimonials-card p{
