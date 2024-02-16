@@ -219,4 +219,11 @@
         flex-direction: column;
         align-self: flex-end;
     }
+
+
+    /* MAIN - Section .benefits */
+
+    .benefits__card{
+        margin: 5px 0;
+    }
 }
