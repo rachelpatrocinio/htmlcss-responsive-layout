@@ -29,12 +29,13 @@
         padding: 10px;
     }
 
-    .hero-card.application{
-        display: flex;
-    }
-
     .hero-card:not(.hero-card.application){
         padding: 30px;
+    }
+
+    .hero-card.application img{
+        width: 70%;
+
     }
 
     .hero-card__header h1{
