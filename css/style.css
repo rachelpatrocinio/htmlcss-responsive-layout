@@ -150,13 +150,18 @@ button{
 }
 
 .hero-card-landscape .hero-card__header{
-    padding-top: 30px;
-    padding-left: 30px;
+    padding-top: 40px;
+    padding-left: 40px;
     padding-right: 30px;
+}
+
+.hero-card-landscape .hero-card__body{
+    align-self: flex-end;
 }
 
 .hero-card-landscape .hero-card__body img{
     width: 250px;
+    display: block;
 }
 
 .hero-card__header i:not(.fa-apple){
