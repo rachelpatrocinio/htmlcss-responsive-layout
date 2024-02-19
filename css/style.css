@@ -149,6 +149,10 @@ button{
     padding: 50px;
 }
 
+.hero-card-landscape{
+    flex-wrap: wrap;
+}
+
 .hero-card-landscape .hero-card__header{
     padding-top: 40px;
     padding-left: 40px;
