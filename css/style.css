@@ -204,7 +204,7 @@ button{
 
 .planning__title + p{
     line-height: 30px;
-    margin-top: 50px;
+    margin-top: 20px;
     color: var(--white);
 }
 
